@@ -1,11 +1,8 @@
-@import "~bootstrap/scss/bootstrap";
-@import "styleboard.css";
-@import "sb_detail.css";
+@import "../bower_components/bootstrap/dist/css/bootstrap.min.css";
+@import "../scss/styleboard.css";
+@import "../scss/sb_detail.css";
 
-// Comfortaa Font
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
-
-// YWFT OAKES GROTESK
+/* YWFT OAKES GROTESK */
 @font-face {
 	font-family: 'OakesGrotesk-Regular';
 	src: url('fonts/oakes-grotesk-regular.eot');
@@ -77,22 +74,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
-$colors: (
-  "blue":       $blue,
-  "indigo":     $indigo,
-  "purple":     $purple,
-  "pink":       $pink,
-  "red":        $red,
-  "orange":     $orange,
-  "yellow":     $yellow,
-  "green":      $green,
-  "teal":       $teal,
-  "cyan":       $cyan,
-  "white":      $white,
-  "gray":       $gray-600,
-  "gray-dark":  $gray-800
-);
 
 body {
     font-size: 16px;
