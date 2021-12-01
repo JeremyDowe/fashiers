@@ -1,6 +1,7 @@
 {
     "dependencies": {
-      "@bower_components/glidejs": "glidejs",
-      "@bower_components/jquery-zoom": "jquery-zoom"
+      "@bower_components/glidejs": "glidejs/dist/glide.min.js",
+      "@bower_components/glidejs": "glidejs/dist/css/glide.core.min.js",
+      "@bower_components/jquery-zoom": "jquery-zoom.min.js"
     }
 }
