@@ -1,8 +1,8 @@
 {
     "dependencies": {
-      "@bower_components/glidejs": "glidejs/dist/glide.min.js",
-      "@bower_components/glidejs": "glidejs/dist/css/glide.core.min.css",
-      "@bower_components/glidejs": "glidejs/dist/css/glide.theme.min.css",
-      "@bower_components/jquery-zoom": "jquery-zoom.min.js"
+      "@bower_components/glidejs": "/bower_components/glidejs/dist/glide.min.js",
+      "@bower_components/glidejs": "/bower_components/glidejs/dist/css/glide.core.css",
+      "@bower_components/glidejs": "/bower_components/glidejs/dist/css/glide.theme.css",
+      "@bower_components/jquery-zoom": "/bower_components/jquery-zoom/jquery-zoom.min.js"
     }
 }
