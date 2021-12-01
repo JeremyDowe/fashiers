@@ -1,4 +1,3 @@
-import "../scss/custom.scss";
 import jQuery from 'jquery';
 import Glide from '@glidejs/glide';
 
