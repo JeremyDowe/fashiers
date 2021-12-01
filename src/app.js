@@ -1,6 +1,6 @@
-//import "../scss/custom.scss";
-//import jQuery from 'jquery';
-//import Glide from '@glidejs/glide';
+import "../scss/custom.scss";
+import jQuery from 'jquery';
+import Glide from '@glidejs/glide';
 
 new Glide('.glide', {
 type: 'carousel',
