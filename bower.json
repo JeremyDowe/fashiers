@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+      "@bower_components/bootstrap": "bootstrap",
+      "@bower_components/glidejs": "glidejs",
+      "@bower_components/jquery": "jquery",
+      "@bower_components/jquery-zoom": "jquery-zoom"
+    }
+}
