@@ -1,11 +1,7 @@
-import jquery from '/bower_components/jquery/dist/jquery.min.js';
-import zoom from '/bower_components/jquery-zoom/jquery.zoom.js';
-import Glide from '@glidejs/glide';
 import tippy from 'tippy.js';
 import 'tippy.js/dist/tippy.css'; // optional for styling
 import 'tippy.js/themes/light.css';
 import 'tippy.js/dist/svg-arrow.css';
-import {roundArrow} from 'tippy.js';
 
 //zoom action
 $('a.zoom').zoom({on:'grab'});
