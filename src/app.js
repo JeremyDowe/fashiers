@@ -1,4 +1,3 @@
-import jQuery from 'jquery';
 import Glide from '@glidejs/glide';
 
 new Glide('.glide', {
