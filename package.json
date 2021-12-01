@@ -2,7 +2,7 @@
   "name": "fashiers",
   "version": "1.0.0",
   "description": "fashiers online fashion community in the usa",
-  "main": "index.js",
+  "main": "./src/app.js",
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "@popperjs/core": "^2.10.2",
@@ -19,6 +19,7 @@
     "jquery-zoom": "^1.7.21",
     "popper": "^1.0.1",
     "popper.js": "^1.16.1",
+    "scss": "^0.2.4",
     "tippy.js": "^6.3.7"
   },
   "devDependencies": {
