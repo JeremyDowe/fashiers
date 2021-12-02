@@ -1,7 +1,9 @@
-import tippy from 'tippy.js';
-import 'tippy.js/dist/tippy.css'; // optional for styling
-import 'tippy.js/themes/light.css';
-import 'tippy.js/dist/svg-arrow.css';
+import '../scss/tippy/tippy-bundle.umd';
+import '../scss/tippy/tippy.cjs';
+import '../scss/tippy/tippy.esm';
+import '../scss/tippy/tippy.umd';
+import '../scss/tippy/tippy.css'; // optional for styling
+import '../scss/tippy/themes/light.css';
 
 //zoom action
 $('a.zoom').zoom({on:'grab'});
