@@ -39,12 +39,7 @@
 }
 
 .outfit__large a {
-    background-color: rgba(252,252,252,1);
-}
-
-.outfit__large a img {
-    //filter: brightness(0.45), contrast(0.75);
-    opacity: 0.91;
+    background-color: rgba(255,255,255,1);
 }
 
 .outfit__large a.zoom {
@@ -80,6 +75,9 @@
 
 /* Modified Tippy */
 
+.tippy-box {
+    padding: 30px 30px;
+}
 .tippy-box h6 {
     font-family:'OakesGrotesk-Semi-Bold';
 }
