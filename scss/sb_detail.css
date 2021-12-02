@@ -76,7 +76,7 @@
 /* Modified Tippy */
 
 .tippy-box {
-    padding: 30px 30px;
+    padding: 12px 12px;
 }
 .tippy-box h6 {
     font-family:'OakesGrotesk-Semi-Bold';
@@ -93,7 +93,7 @@
 }
 .tippy-box a {
     position: absolute;
-    bottom: 15px;
+    bottom: 18px;
     z-index: 1;
     right: 12px;
     width: 68px;
