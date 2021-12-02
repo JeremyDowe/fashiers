@@ -227,6 +227,11 @@ section #styleboard .header h2.items {
     text-align: -webkit-left;
 }
 
+#styleboard .outfit_widget,
+.outfit_widget {
+    border: 1px solid rgb(233,233,233) !important;
+}
+
 #styleboard li.outfit_widget:nth-child(4n){
     margin-right: 0;
 }
