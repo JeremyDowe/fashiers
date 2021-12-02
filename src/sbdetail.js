@@ -1,7 +1,4 @@
-import '../scss/tippy/tippy-bundle.umd';
-import '../scss/tippy/tippy.cjs';
-import '../scss/tippy/tippy.esm';
-import '../scss/tippy/tippy.umd';
+//tippy
 import '../scss/tippy/tippy.css'; // optional for styling
 import '../scss/tippy/themes/light.css';
 
