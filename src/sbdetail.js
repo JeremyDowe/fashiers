@@ -1,7 +1,3 @@
-//tippy
-import '../scss/tippy/tippy.css'; // optional for styling
-import '../scss/tippy/themes/light.css';
-
 //zoom action
 $('a.zoom').zoom({on:'grab'});
 
