@@ -78,6 +78,43 @@
     display: none;
 }
 
+/* Modified Tippy */
+
+.tippy-box h6 {
+    font-family:'OakesGrotesk-Semi-Bold';
+}
+.tippy-box p {
+    font-family:'OakesGrotesk-Regular';
+    color: rgba(20,20,20,1);
+    min-width: 160px;
+    max-width: 180px;
+}
+.tippy-box strong {
+    font-family:'OakesGrotesk-Semi-Bold';
+    color: rgba(0,0,0,1);
+}
+.tippy-box a {
+    position: absolute;
+    bottom: 15px;
+    z-index: 1;
+    right: 12px;
+    width: 68px;
+    height: 18px;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-top-left-radius: 1.3332em;
+    border-bottom-left-radius: 1.3332em;
+    border-top-right-radius: 1.3332em;
+    border-bottom-right-radius: 1.3332em;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    font-family:'OakesGrotesk-Semi-Bold';
+    font-size: 9px;
+}
+
+/* Media Queries */
+
 @media screen and (min-width: 1400px) {
 
     .detail__controls {
