@@ -1,5 +1,4 @@
 /* Block & Section Elements */
-
 .page__sb section {
     margin-block-start: 0;
     margin-block-end: 1em;
@@ -299,7 +298,7 @@ section #styleboard .header h2.items {
     background: url('../src/images/ico/heart_ico.svg') left center no-repeat;
     background-size: 11px 16px;
     position: absolute;
-    left: 92px;
+    left: 116px;
     bottom: 10px;
 }
 
