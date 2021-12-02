@@ -93,8 +93,8 @@
 }
 .tippy-box a {
     position: absolute;
-    bottom: 8px;
     right: 12px;
+    bottom: -8px;    
     width: 68px;
     height: 18px;
     text-align: center;
