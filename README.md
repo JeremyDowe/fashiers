@@ -1,2 +1,3 @@
-# git_clone_fashiers
+# Fashiers Dummy Site
+# MARKUP HTML CSS JS
  
