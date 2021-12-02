@@ -1,8 +1,8 @@
 //import jquery from '/bower_components/jquery/dist/jquery.min.js';
 //import zoom from '/bower_components/jquery-zoom/jquery.zoom.js';
-import Glide from '@glidejs/glide';
-import '@glidejs/glide/dist/css/glide.core.css';
-import '@glidejs/glide/dist/css/glide.theme.css';
+//import Glide from '@glidejs/glide';
+//import '@glidejs/glide/dist/css/glide.core.css';
+//import '@glidejs/glide/dist/css/glide.theme.css';
 
 new Glide('.glide', {
 type: 'carousel',
