@@ -1251,7 +1251,7 @@ section #styleboard .header h2.items {
     box-shadow: none;
 }
 
-// Styleboard outfit
+/* Styleboard outfit */
 
 #styleboard .outfit_widget {
     width: 310px;
@@ -1477,7 +1477,7 @@ section #styleboard .header h2.items {
 }
 
 @media screen and (min-width: 1400px) {
-    // Large Web
+    /* Large Web */
     .active_banner {
         float: left;
         width: 640px;
@@ -1587,7 +1587,7 @@ section #styleboard .header h2.items {
 }
 
 @media screen and (max-width: 1400px) {
-    // Large Web
+    /* Large Web Controlled */
     .active_banner {
         float: left;
         width: 540px;
@@ -1698,7 +1698,7 @@ section #styleboard .header h2.items {
 }
 
 @media screen and (max-width: 1200px) {
-    // Medium Web
+    /* Medium Web */
     .main_search .search_input {
         height: 28px;
         width: 100%;
@@ -1771,7 +1771,7 @@ section #styleboard .header h2.items {
 }
 
 @media screen and (max-width: 990px) {
-    // Small Web or Tablet
+    /* Small Web or Tablet */
     header .desktop_nav {
         display: none;
     }
@@ -1937,7 +1937,7 @@ section #styleboard .header h2.items {
 }
 
 @media screen and (max-width: 768px) {
-    // Large Phone
+    /* Large Phone */
     .brand {
         position: absolute;
         left: 26%;
@@ -2087,7 +2087,7 @@ section #styleboard .header h2.items {
 }
 
 @media screen and (max-width: 600px) {
-    // Small Phone
+    /* Small Phone */
 
     .active_banner .animation,
     .active_banner .animplaceholder {
@@ -2199,7 +2199,7 @@ section #styleboard .header h2.items {
 }
 
 @media screen and (max-width: 480px) {
-    // Small Phone
+    /* Small Phone */
 
     header {
         min-width: 375px;
@@ -2339,7 +2339,8 @@ section #styleboard .header h2.items {
 }
 
 @media screen and (max-width: 375px) {
-    // Small Phone
+    /* Small Phone */
+    
     header .brand {
         left: 20.5%;
     }
