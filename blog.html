@@ -15,9 +15,9 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap">
     <!-- Import Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="/scss/custom.css">
+    <link rel="stylesheet" type="text/css" href="/scss/custom_dev.css">
   </head>
-  <body class="page__home">
+  <body class="page__blog">
     <div class="cookies">This site uses cookies please press ok to accept <button>OK</button></div>
     <header>
       <div class="container px-1">
@@ -70,86 +70,90 @@
       <!-- Content begins here -->
       <section>
           <div class="container">
-            <div class="col blog_main_col">
-              <div class="header__content">
-                <h2>Blog</h2>
-                <h3>My first blog post</h3>
-                <p class="date__posted">June 24 2020</p>
-              </div>
-              <div class="image">
-                <img src="" width="600" height="480" />
-              </div>
-              <div class="start__content">
-                <p>
-                  From rompers, shorts, mini skirts, Summer dresses, we have a great deal of selection to show you how to mix and match 
-                  some of the items you have already in your wardrobe, and give you simple but chic ways to style yourselves, for that planned outing.
-                </p>
-                <p>Let's have a look of these great 10 outfits to inspire your style.</p>
-              </div>
-              <div class="image">
-                <img src="" width="600" height="480" />
-                <span class="caption">Casual in a Maxi dress, shop full look <a href="#">here</a></span>
-              </div>
-              <div class="col">
-                <img src="" width="160" height="110" />
-                <div>
-                  $297<br><br>
-                  Zimmermann<br>
-                  fashiers.com
+            <div class="row">
+              <div class="col-2 blog_main_col">
+                <div class="header__content">
+                  <h2>Blog</h2>
+                  <h3>My first blog post</h3>
+                  <p class="date__posted">June 24 2020</p>
                 </div>
-              </div>
-              <div class="col">
-                <img src="" width="160" height="110" />
-                <div>
-                  $24<br><br>
-                  Fashiers<br>
-                  fashiers.com
+                <div class="image">
+                  <img src="/src/images/blogpost_img1.jpg" width="600" height="480" />
+                </div>
+                <div class="start__content">
+                  <p>
+                    From rompers, shorts, mini skirts, Summer dresses, we have a great deal of selection to show you how to mix and match 
+                    some of the items you have already in your wardrobe, and give you simple but chic ways to style yourselves, for that planned outing.
+                  </p>
+                  <p>Let's have a look of these great 10 outfits to inspire your style.</p>
+                </div>
+                <div class="image">
+                  <img src="/src/images/blogpost_img2.jpg" width="600" height="480" />
+                  <span class="caption">Casual in a Maxi dress, shop full look <a href="#">here</a></span>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <img src="/src/images/blogstoreitem_img1.jpg" width="160" height="110" />
+                    <div>
+                      $297<br><br>
+                      Zimmermann<br>
+                      fashiers.com
+                    </div>
+                  </div>
+                  <div class="col">
+                    <img src="/src/images/blogstoreitem_img2.jpg" width="160" height="110" />
+                    <div>
+                      $24<br><br>
+                      Fashiers<br>
+                      fashiers.com
+                    </div>  
+                  </div>
+                  <div class="col">
+                    <img src="/src/images/blogstoreitem_img3.jpg" width="160" height="110" />
+                    <div>
+                      $24<br><br>
+                      Fashiers<br>
+                      fashiers.com
+                    </div>
+                  </div>
                 </div>  
               </div>
-              <div class="col">
-                <img src="" width="160" height="110" />
-                <div>
-                  $24<br><br>
-                  Fashiers<br>
-                  fashiers.com
+              <aside class="col blog_search_panel">
+                <div class="search_panel">
+                  <input type="search" name="blog search" placeholder="Search" />
                 </div>
-              </div>
+                <div class="popular_posts">
+                  <h4 class="sidebar_title">Popular Posts</h4>
+                  <div class="row short_post">
+                    <div class="col image">
+                      <img src="/src/images/blogsidebar_img1.jpg" width="160" height="120" />
+                    </div>
+                    <div class="col detail">
+                      <h5>15 Ways to style your jeans</h5>
+                      <a href="#">Read more</a>
+                    </div>
+                  </div>
+                  <div class="row short_post">
+                    <div class="col image">
+                      <img src="/src/images/blogsidebar_img2.jpg" width="160" height="120" />
+                    </div>
+                    <div class="col detail">
+                      <h5>Outfit ideas for fall 2022</h5>
+                      <a href="#">Read more</a>
+                    </div>
+                  </div>
+                  <h4 class="sidebar_title">Popular Tags</h4>
+                  <ul class="tag">
+                    <li class="tag_type_blog_sidebar"><span>All</span></li>
+                    <li class="tag_type_blog_sidebar"><span>Summer</span></li>
+                    <li class="tag_type_blog_sidebar"><span class="blue">Fashion</span></li>
+                    <li class="tag_type_blog_sidebar"><span>Autumn</span></li>
+                    <li class="tag_type_blog_sidebar"><span>Shades</span></li>
+                    <li class="tag_type_blog_sidebar"><span>Retro</span></li>
+                  </ul>
+                </div>
+              </aside>
             </div>
-            <aside class="col blog_search_panel">
-              <div class="search_panel">
-                <input type="search" name="blog search" />
-              </div>
-              <div class="popular_posts">
-                <h4 class="sidebar_title">Popular Posts</h4>
-                <div class="short_post">
-                  <div class="image">
-                    <img src="" width="160" height="120" />
-                  </div>
-                  <div class="detail">
-                    <h5>15 Ways to style your jeans</h5>
-                    <a href="#">Read more</a>
-                  </div>
-                </div>
-                <div class="short_post">
-                  <div class="image">
-                    <img src="" width="160" height="120" />
-                  </div>
-                  <div class="detail">
-                    <h5>Outfit ideas for fall 2022</h5>
-                    <a href="#">Read more</a>
-                  </div>
-                </div>
-                <h4 class="sidebar_title">Popular Tags</h4>
-                <ul class="tag">
-                  <li class="tag_type_blog_sidebar"><span>all</span></li>
-                  <li class="tag_type_blog_sidebar"><span>summer</span></li>
-                  <li class="tag_type_blog_sidebar"><span>fashion</span></li>
-                  <li class="tag_type_blog_sidebar"><span>autumn</span></li>
-                  <li class="tag_type_blog_sidebar"><span>shades</span></li>
-                  <li class="tag_type_blog_sidebar"><span>retro</span></li>
-                </ul>
-              </div>
-            </aside>
           </div>
       </section>
     </main>
