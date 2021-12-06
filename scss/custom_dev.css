@@ -2630,6 +2630,7 @@ body.page__blog article {
 .blog_main_col .items_parts,
 .blog_main_col .item_details {
     text-align: -webkit-center;
+    padding: 0rem 0 1.5rem 0;
 }
 
 .blog_main_col .item_details strong {
