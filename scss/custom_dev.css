@@ -2552,6 +2552,11 @@ body.page__blog aside {
 
 body.page__blog article {
     padding: 3rem 0;
+    border-top: 2px solid rgba(156, 156, 156,.2);
+}
+body.page__blog article.inital_post {
+    padding: 3rem 0;
+    border-top: none;
 }
 
 .blog_main_col .image {
@@ -2643,4 +2648,14 @@ body.page__blog article {
     font-weight: bold;
     font-size: 11px;
     color: #0255ED;
+}
+
+.post .header__content .date__posted {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 0.895rem;
+}
+
+.post .header__content h2 {
+    margin-bottom: 1.35rem;
 }
