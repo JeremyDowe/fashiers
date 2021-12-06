@@ -2538,7 +2538,7 @@ body.page__blog .blog_main_col h2 {
     font-size: 0.875em;
 }
 
-/* Blog Panel Column Left */
+/* Blog Panels */
 
 body.page__blog .blog_main_col {
     margin-left: 2em;
@@ -2548,6 +2548,15 @@ body.page__blog .blog_main_col {
 
 body.page__blog aside {
     width: 320px;
+}
+
+body.page__blog article {
+    padding: 3rem 0;
+}
+
+.blog_main_col .image {
+    text-align: -webkit-center;
+    width: auto;
 }
 
 /* Blog Search Panel */
@@ -2610,13 +2619,27 @@ body.page__blog aside {
 }
 
 /* Blog post styles */
-.blog_main_col .image {
-    text-align: center;
-    width: min-content;
-}
+
 .blog_main_col .image span.caption {
-    display: inline-block;
+    display: block;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
+}
+
+.blog_main_col .items_parts,
+.blog_main_col .item_details {
+    text-align: -webkit-center;
+}
+
+.blog_main_col .item_details strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.blog_main_col .item_details a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #0255ED;
 }
