@@ -124,12 +124,6 @@ a:active {
     color: rgb(56, 56, 56);
 }
 
-/* Background colours */
-
-header {
-    background-color: #ffffff;
-}
-
 /* Header */
 
 header {
@@ -1049,10 +1043,6 @@ footer ul li.socials {
 /* Background colours */
 
 body.page__sb {
-    background-color: #ffffff;
-}
-
-header {
     background-color: #ffffff;
 }
 
@@ -2659,3 +2649,68 @@ body.page__blog article.inital_post {
 .post .header__content h2 {
     margin-bottom: 1.35rem;
 }
+
+/* Get the App styles */
+
+body.page__app {
+    background: #ffffff;
+}
+
+body.page__app main section {
+    height: 1000px;
+    min-height: -webkit-fill-available;
+    padding-left: 2.52rem;
+    position: relative;
+}
+
+body.page__app main section article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    color: rgb(10,10,10);
+}
+
+#gta_pt1 {
+    position: absolute;
+    top: 107px;
+    left: 40px;
+    width: 371px;
+}
+
+#gta_pt1 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(10,10,10);
+    margin: 4rem 0;
+}
+
+#gta_pt2 {
+    position: absolute;
+    top: 540px;
+    left: 40px;
+    width: 255px;
+}
+
+#gta_pt2 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(10,10,10);
+    margin: 4rem 0;
+}
+
+#gta_pt3 {
+    position: absolute;
+    top: 460px;
+    right: 20px;
+    width: 459px;
+}
+
+#gta_pt3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(10,10,10);
+}
+
